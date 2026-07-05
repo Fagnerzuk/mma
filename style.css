@@ -482,3 +482,26 @@ footer{
     background:#070707;
     color:#999;
 }
+
+/*=========================
+JUNÇÃO COM SCRIPT.JS
+=========================*/
+
+/* Animação */
+
+.hidden{
+    opacity:0;
+    transform:translateY(40px);
+    transition:all .8s ease;
+}
+
+.show{
+    opacity:1;
+    transform:translateY(0);
+}
+
+/* Link estilo ativo */
+
+.nav-menu a.active{
+    color:var(--red);
+}
