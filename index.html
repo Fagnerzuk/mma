@@ -2,7 +2,6 @@
 <html lang="en">
 
 <head>
-
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
@@ -10,7 +9,6 @@
 
     <link rel="stylesheet" href="style.css">
     <link rel="icon" href="mma-logo.jpg">
-
 </head>
 
 <body>
@@ -20,22 +18,20 @@
     <h1 class="logo">MMA Academy</h1>
 
     <nav class="nav-menu">
-
-        <a href="#">Home</a>
-        <a href="#">Programs</a>
-        <a href="#">Resources</a>
-        <a href="#">About</a>
-        <a href="#">Testimonials</a>
-        <a href="#">Schedule</a>
-        <a href="#">Blog</a>
-        <a href="#">Contact</a>
-
+        <a href="#home">Home</a>
+        <a href="#programs">Programs</a>
+        <a href="#resources">Resources</a>
+        <a href="#about">About</a>
+        <a href="#testimonials">Testimonials</a>
+        <a href="#schedule">Schedule</a>
+        <a href="#blog">Blog</a>
+        <a href="#contact">Contact</a>
     </nav>
 
 </header>
 
-<section class="hero">
-
+<!-- Hero -->
+<section class="hero" id="home">
     <div class="overlay">
 
         <h2>Train Like a Champion</h2>
@@ -45,14 +41,120 @@
             designed for fighters of all levels, from beginners to pros.
         </p>
 
-        <a href="#" class="btn">
-            Explore Programs
-        </a>
+        <a href="#programs" class="btn">Explore Programs</a>
+
+    </div>
+</section>
+
+<!-- Programs -->
+<section id="programs">
+
+    <h2>Programs</h2>
+
+    <div class="program-container">
+
+        <div class="program-card">
+            <h3>Beginner</h3>
+            <p>
+                Learn the fundamentals of striking, grappling and fitness.
+            </p>
+        </div>
+
+        <div class="program-card">
+            <h3>Intermediate</h3>
+            <p>
+                Improve your technique, conditioning and fight strategy.
+            </p>
+        </div>
+
+        <div class="program-card">
+            <h3>Professional</h3>
+            <p>
+                Elite training designed for competitive fighters.
+            </p>
+        </div>
 
     </div>
 
 </section>
 
-</body>
+<!-- Resources -->
+<section id="resources">
+    <h2>Resources</h2>
+    <p>
+        Access training videos, nutrition guides, recovery tips and workout plans.
+    </p>
+</section>
 
+<!-- About -->
+<section id="about">
+    <h2>About MMA Academy</h2>
+    <p>
+        We help athletes build strength, discipline and confidence through professional MMA training.
+    </p>
+</section>
+
+<!-- Testimonials -->
+<section id="testimonials">
+    <h2>Testimonials</h2>
+
+    <blockquote>
+        "The best MMA training experience I've ever had."
+    </blockquote>
+
+    <blockquote>
+        "Amazing coaches and a supportive community."
+    </blockquote>
+</section>
+
+<!-- Schedule -->
+<section id="schedule">
+    <h2>Weekly Schedule</h2>
+
+    <ul>
+        <li>Monday - Striking</li>
+        <li>Tuesday - Wrestling</li>
+        <li>Wednesday - Brazilian Jiu-Jitsu</li>
+        <li>Thursday - Conditioning</li>
+        <li>Friday - Sparring</li>
+    </ul>
+</section>
+
+<!-- Blog -->
+<section id="blog">
+    <h2>Latest Articles</h2>
+
+    <article>
+        <h3>Top 5 Tips for Beginner Fighters</h3>
+        <p>Discover the best habits to improve your MMA journey.</p>
+    </article>
+
+    <article>
+        <h3>Nutrition for Champions</h3>
+        <p>Learn how proper nutrition boosts performance.</p>
+    </article>
+</section>
+
+<!-- Contact -->
+<section id="contact">
+    <h2>Contact Us</h2>
+
+    <form>
+        <input type="text" placeholder="Your Name" required>
+
+        <input type="email" placeholder="Your Email" required>
+
+        <textarea placeholder="Your Message"></textarea>
+
+        <button type="submit">Send Message</button>
+    </form>
+</section>
+
+<footer>
+    <p>&copy; 2026 MMA Academy. All rights reserved.</p>
+</footer>
+
+<script src="script.js"></script>
+
+</body>
 </html>
