@@ -316,3 +316,169 @@ CELULAR
 }
 
 }
+
+/*=========================
+SECTIONS
+=========================*/
+
+section:not(.hero){
+    padding:90px 10%;
+}
+
+section h2{
+    font-size:2.5rem;
+    text-align:center;
+    margin-bottom:40px;
+    color:var(--red);
+}
+
+/*=========================
+PROGRAMS
+=========================*/
+
+.program-container{
+    display:grid;
+    grid-template-columns:repeat(auto-fit, minmax(260px,1fr));
+    gap:30px;
+}
+
+.program-card{
+    background:#171717;
+    padding:30px;
+    border-radius:15px;
+    text-align:center;
+    transition:.3s;
+    border:2px solid transparent;
+}
+
+.program-card:hover{
+    transform:translateY(-10px);
+    border-color:var(--red);
+}
+
+.program-card h3{
+    color:var(--red);
+    margin-bottom:15px;
+}
+
+.program-card p{
+    color:var(--gray);
+    line-height:1.6;
+}
+
+/*=========================
+TEXTOS
+=========================*/
+
+#resources p,
+#about p,
+#blog p{
+    max-width:850px;
+    margin:auto;
+    text-align:center;
+    color:var(--gray);
+    line-height:1.8;
+}
+
+/*=========================
+TESTIMONIALS
+=========================*/
+
+blockquote{
+    max-width:700px;
+    margin:25px auto;
+    background:#181818;
+    padding:25px;
+    border-left:5px solid var(--red);
+    border-radius:10px;
+    font-style:italic;
+}
+
+/*=========================
+SCHEDULE
+=========================*/
+
+#schedule ul{
+    list-style:none;
+    max-width:500px;
+    margin:auto;
+}
+
+#schedule li{
+    background:#171717;
+    margin:12px 0;
+    padding:18px;
+    border-radius:10px;
+    text-align:center;
+}
+
+/*=========================
+BLOG
+=========================*/
+
+article{
+    max-width:700px;
+    margin:30px auto;
+    background:#171717;
+    padding:25px;
+    border-radius:15px;
+}
+
+article h3{
+    color:var(--red);
+    margin-bottom:10px;
+}
+
+/*=========================
+CONTACT
+=========================*/
+
+form{
+    max-width:650px;
+    margin:auto;
+    display:flex;
+    flex-direction:column;
+    gap:20px;
+}
+
+input,
+textarea{
+    padding:18px;
+    border:none;
+    border-radius:10px;
+    background:#1c1c1c;
+    color:white;
+    font-size:16px;
+}
+
+textarea{
+    resize:vertical;
+    min-height:150px;
+}
+
+button{
+    background:var(--red);
+    color:white;
+    border:none;
+    padding:18px;
+    border-radius:10px;
+    cursor:pointer;
+    font-size:18px;
+    font-weight:bold;
+    transition:.3s;
+}
+
+button:hover{
+    background:var(--red-hover);
+}
+
+/*=========================
+FOOTER
+=========================*/
+
+footer{
+    text-align:center;
+    padding:35px;
+    background:#070707;
+    color:#999;
+}
